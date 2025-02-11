@@ -1,2 +1,2 @@
-# 18ranjitsanap
+# 18ranjit
 this is my first repository
