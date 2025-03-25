@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+
+#f2{
+height:100px;
+width:400px;
+background:red;
+margin:auto;
+}
+
+.ranjit{
+height:550px;
+width:400px;
+background:aqua;
+margin:auto;
+}
+
+input{
+height:80px;
+width:80px;
+margin-top:10px;
+border:3px solid red;
+margin-left:13px;}
+
+#game{
+height:80px;
+width:400px;
+margin:auto;
+margin-top:10px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="ranjit">
+
+<form name="f1">
+
+<input id="f2" type="id"name="form">
+
+<input type="button" name="s1"value="1"onclick="f1.form.value+='1'">
+
+<input type="button" name="s2"value="2"onclick="f1.form.value+='2'">
+
+<input type="button" name="s3"value="3"onclick="f1.form.value+='3'">
+
+<input type="button" name="s4"value="+"onclick="f1.form.value+='+'">
+<br>
+
+
+<input type="button" name="s5"value="4"onclick="f1.form.value+='4'">
+
+<input type="button" name="s6"value="5"onclick="f1.form.value+='5'">
+
+<input type="button" name="s7"value="6"onclick="f1.form.value+='6'">
+
+<input type="button" name="s8"value="-"onclick="f1.form.value+='-'">
+<br>
+
+
+<input type="button" name="s9"value="7"onclick="f1.form.value+='7'">
+
+<input type="button" name="s10"value="8"onclick="f1.form.value+='8'">
+
+<input type="button" name="s11"value="9"onclick="f1.form.value+='9'">
+
+<input type="button" name="s12"value="*"onclick="f1.form.value+='*'">
+<br>
+
+<input type="button" name="s13"value="/"onclick="f1.form.value+='/'">
+
+<input type="button" name="s14"value="0"onclick="f1.form.value+='0'">
+
+<input type="button" name="s15"value="."onclick="f1.form.value+='.'">
+
+<input type="button" name="s16"value="="onclick="f1.form.value=eval(f1.form.value)">
+<br>
+
+<input id="game" type="button" value="reset"onclick="f1.form.value=''">
+
+</form>
+
+</div>
+
+</body>
+</html>
